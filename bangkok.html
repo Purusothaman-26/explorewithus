@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bangkok - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bangkok</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2017/10/The-Grand-Palace-and-Wat-Pho.jpg" alt="Bangkok" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Bangkok</h2>
+      <p>
+        Bangkok, the capital of Thailand, is famous for its ornate temples, bustling street life, and vibrant markets.
+      </p>
+      <p>
+        From the Grand Palace to floating markets and nightlife, Bangkok offers a unique mix of tradition and energy.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Explore the spiritual beauty of Wat Pho, cruise the Chao Phraya River, indulge in Thai street food, and shop at mega malls or night bazaars. Bangkok is a dynamic gateway to Thailand's rich culture.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Bangkok</h2>
+    <ul>
+      <li>Grand Palace – Royal residence and iconic Thai architecture</li>
+      <li>Wat Arun – Temple of Dawn on the riverside</li>
+      <li>Wat Pho – Home of the Reclining Buddha and Thai massage</li>
+      <li>Chatuchak Market – One of the largest weekend markets in the world</li>
+      <li>Khao San Road – Backpacker hub with nightlife and street eats</li>
+      <li>Asiatique – Riverfront shopping and dining experience</li>
+      <li>Jim Thompson House – Traditional Thai house and museum</li>
+      <li>Chao Phraya River Cruise – Scenic evening boat ride</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Bangkok</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> November to February (cool and dry season)</li>
+      <li><strong>Visa:</strong> eVisa or visa on arrival for Indian citizens</li>
+      <li><strong>Transport:</strong> BTS Skytrain, MRT metro, tuk-tuks, and river ferries</li>
+      <li><strong>Currency:</strong> Thai Baht (THB)</li>
+      <li><strong>Language:</strong> Thai (English is widely understood in tourist areas)</li>
+      <li><strong>Etiquette:</strong> Dress modestly when visiting temples, respect local customs</li>
+      <li><strong>Food:</strong> Don’t miss pad thai, mango sticky rice, and spicy curries</li>
+      <li><strong>Shopping:</strong> Bargain in markets and explore both malls and local stalls</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages (Flights Included)</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>3-Day Bangkok City Break</h3>
+        <p>Flights + guided temple tour, floating market visit, and Thai dinner cruise.</p>
+        <p class="price green">₹49,999</p>
+        <button onclick="bookPackage('3-Day Bangkok City Break')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>5-Day Bangkok & Pattaya Combo</h3>
+        <p>Includes Alcazar Show, Coral Island trip, and Bangkok city exploration.</p>
+        <p class="price orange">₹79,999</p>
+        <button onclick="bookPackage('5-Day Bangkok & Pattaya Combo')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Luxury Thai Escape</h3>
+        <p>5-star stays, private city tours, fine dining, and spa experiences in Bangkok and nearby islands.</p>
+        <p class="price gold">₹1,29,999</p>
+        <button onclick="bookPackage('Luxury Thai Escape')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="bangkok.js"></script>
+</body>
+</html>

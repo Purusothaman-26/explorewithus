@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kodaikanal - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Kodaikanal</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://images.unsplash.com/photo-1570832764204-f209aa9cd28f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGtvZGFpa2FuYWx8ZW58MHx8MHx8fDA%3D" alt="Kodaikanal" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Kodaikanal</h2>
+      <p>
+        Kodaikanal, located in Tamil Nadu, is a charming hill station known for its misty mountains, cool climate, and scenic valleys. Often referred to as the "Princess of Hill Stations", it's a peaceful retreat for travelers.
+      </p>
+      <p>
+        With lush greenery, waterfalls, and a beautiful man-made lake, Kodaikanal offers a perfect mix of nature and serenity.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Explore Coaker's Walk, enjoy boating in Kodaikanal Lake, hike to Dolphin's Nose, and experience the tranquility of pine forests. Kodaikanal is ideal for couples, trekkers, and those seeking a break from city life.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Kodaikanal</h2>
+    <ul>
+      <li>Kodaikanal Lake – Boating and cycling around the lake</li>
+      <li>Coaker’s Walk – Scenic viewpoint along the hillside</li>
+      <li>Pillar Rocks – Massive rock formations with breathtaking views</li>
+      <li>Dolphin’s Nose – Cliff viewpoint with stunning valley sights</li>
+      <li>Silver Cascade Falls – Picturesque waterfall near the town</li>
+      <li>Bryant Park – Botanical garden with vibrant flowers and trees</li>
+      <li>Pine Forest – Ideal for photography and nature walks</li>
+      <li>Berijam Lake – Restricted-entry lake surrounded by forest</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Kodaikanal</h2>
+    <ul>
+      <li><strong>Carry warm clothes:</strong> The weather can be chilly, especially at night.</li>
+      <li><strong>Book in advance:</strong> Peak seasons get fully booked quickly.</li>
+      <li><strong>Try local cuisine:</strong> Homemade chocolates and South Indian dishes are a must.</li>
+      <li><strong>Travel light:</strong> Useful when trekking or walking around viewpoints.</li>
+      <li><strong>Start early:</strong> Many attractions are best visited before noon to avoid fog.</li>
+      <li><strong>Respect nature:</strong> Avoid plastic and keep trails clean.</li>
+      <li><strong>Use local transport:</strong> Taxis and bikes are easy to hire locally.</li>
+      <li><strong>Stay hydrated:</strong> Altitude may cause dehydration.</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>2-Day Kodaikanal Tour</h3>
+        <p>Kodaikanal Lake, Coaker’s Walk, and Silver Cascade Falls.</p>
+        <p class="price green">₹3799</p>
+        <button onclick="bookPackage('2-Day Kodaikanal Tour')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>3-Day Nature Escape</h3>
+        <p>Includes Dolphin’s Nose, Pillar Rocks, and Pine Forest.</p>
+        <p class="price orange">₹5999</p>
+        <button onclick="bookPackage('3-Day Nature Escape')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Luxury Hillside Getaway</h3>
+        <p>Luxury stay, Berijam Lake entry, and guided sightseeing.</p>
+        <p class="price gold">₹7999</p>
+        <button onclick="bookPackage('Luxury Hillside Getaway')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="kodaikanal.js"></script>
+</body>
+</html>

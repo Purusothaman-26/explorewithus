@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Greece - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Greece</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://www.travelanddestinations.com/wp-content/uploads/2022/02/Unique-places-in-Greece-Santorini.jpg" alt="Greece" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Greece</h2>
+      <p>
+        Greece is a Mediterranean paradise known for its ancient ruins, blue-domed churches, and crystal-clear waters.
+      </p>
+      <p>
+        From Athens’ historical sites to the breathtaking islands of Santorini and Mykonos, Greece is rich in culture and beauty.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Walk through history at the Acropolis, enjoy sunset views in Oia, sail the Aegean Sea, or relax on golden beaches. Greece offers a unique blend of myth, tradition, and natural wonder.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Greece</h2>
+    <ul>
+      <li>Athens – Explore the Acropolis and Parthenon</li>
+      <li>Santorini – Iconic white buildings with blue domes and sunset views</li>
+      <li>Mykonos – Famous for beaches and vibrant nightlife</li>
+      <li>Crete – Ancient Minoan ruins and Mediterranean beauty</li>
+      <li>Delphi – Historic oracle site surrounded by mountains</li>
+      <li>Rhodes – Medieval architecture and beach resorts</li>
+      <li>Meteora – Monasteries perched on towering rock formations</li>
+      <li>Nafplio – Seaside town with charming old streets and fortresses</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Greece</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> April to October (avoid peak July-August for crowds)</li>
+      <li><strong>Visa:</strong> Schengen visa required for most non-EU travelers</li>
+      <li><strong>Transport:</strong> Use ferries to explore islands; buses and taxis in cities</li>
+      <li><strong>Currency:</strong> Euro (€)</li>
+      <li><strong>Language:</strong> Greek (English widely spoken in tourist areas)</li>
+      <li><strong>Food:</strong> Don’t miss souvlaki, moussaka, and fresh Greek salads</li>
+      <li><strong>Culture:</strong> Dress modestly when visiting monasteries or churches</li>
+      <li><strong>Safety:</strong> Very safe with welcoming locals</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages (Flights Included)</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>3-Day Athens Experience</h3>
+        <p>Flights + guided tour of Acropolis, Parthenon, and Plaka district.</p>
+        <p class="price green">₹42,999</p>
+        <button onclick="bookPackage('3-Day Athens Experience')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>5-Day Island Adventure</h3>
+        <p>Santorini and Mykonos with ferry transfers, luxury stays, and local cuisine.</p>
+        <p class="price orange">₹69,999</p>
+        <button onclick="bookPackage('5-Day Island Adventure')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Romantic Greece Getaway</h3>
+        <p>Couple’s escape to Santorini with private villa, sunset cruise, and wine tasting.</p>
+        <p class="price gold">₹99,999</p>
+        <button onclick="bookPackage('Romantic Greece Getaway')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="greece.js"></script>
+</body>
+</html>

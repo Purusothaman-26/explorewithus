@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ExploreWithUs - Travel Destinations</title>
+  <link rel="stylesheet" href="style.css" />
+    <style>
+    .search-bar {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    #searchInput {
+      width: 60%;
+      padding: 12px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      width: 280px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: 0.3s;
+      background: #fff;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+    }
+
+    .card button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #350cd6;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ExploreWithUs</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="india.html">India</a>
+      <a href="internationals.html">Internationals</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore India's Top Spots</h2>
+    <p>Experience the culture, beauty, and diversity of India</p>
+    <button onclick="scrollToIndiaBooking()">Plan a Trip</button>
+  </section> 
+
+  <!-- Search Bar -->
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search destinations..." onkeyup="searchDestinations()" />
+  </div>
+
+ 
+
+  <!-- International Destinations -->
+  <section class="destinations">
+    <div class="cards">
+      <div class="card">
+        <img src="https://t3.ftcdn.net/jpg/06/14/66/44/360_F_614664471_UGM4ILl3ibTN8f71zNGU1fpIWLcG86KL.jpg" alt="Maldives">
+        <h3>MALDIVES</h3>
+        <p>The Maldives is a tropical paradise known for its white-sand beaches and turquoise waters.It’s famous for luxury resorts, coral reefs, and vibrant marine life.</p>
+        <a href="maldives.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/653953140/photo/hindu-temple-in-bali.jpg?s=612x612&w=0&k=20&c=ysj3S2kV1ZgCr4QZWDzjvHRowCI3-cR1xQNnqE8-BS4=" alt="Bali">
+        <h3>BALI</h3>
+        <p>Bali is an Indonesian island known for its lush landscapes, vibrant culture, and scenic beaches.It offers ancient temples, rice terraces, and a rich tradition of art and dance.</p>
+        <a href="bali.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://t4.ftcdn.net/jpg/01/87/77/33/360_F_187773353_dFK1bBRKVQiLgUvfqzSut3829IHZhKCB.jpg" alt="Sri Lanka">
+        <h3>SRI LANKA</h3>
+        <p>Sri Lanka is an island nation in South Asia known for its ancient temples, tea plantations, and diverse wildlife.It offers stunning beaches, cultural heritage sites, and lush green highlands.</p>
+        <a href="srilanka.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://wallpapers.com/images/featured/paris-zy4x2ow5p7j5qi4a.jpg" alt="Paris">
+        <h3>PARIS</h3>
+        <p>Paris, the capital of France, is famed for its art, fashion, and iconic landmarks like the Eiffel Tower.It offers romantic charm, world-class cuisine, and rich cultural history.</p>
+        <a href="paris.html"><button>Explore</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <div class="cards">
+      <div class="card">
+        <img src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Venice-Italy-Wallpapers.jpg" alt="Italy">
+        <h3>ITALY</h3>
+        <p>Italy is a European country known for its rich history, stunning architecture, and world-renowned cuisine.From ancient Rome to the canals of Venice, it offers diverse cultural and scenic experiences.</p>
+        <a href="italy.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://plus.unsplash.com/premium_photo-1661964149725-fbf14eabd38c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZWNlfGVufDB8fDB8fHww" alt="Greece">
+        <h3>GREECE</h3>
+        <p>Greece is a Mediterranean country known for its ancient ruins, stunning islands, and rich mythology.It offers crystal-clear waters, white-washed villages, and a deep cultural heritage.</p>
+        <a href="greece.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGh1a2V0fGVufDB8fDB8fHww" alt="Thailand">
+        <h3>THAILAND</h3>
+        <p>Thailand is a Southeast Asian country known for its vibrant street life, golden temples, and tropical beaches.It offers rich culture, delicious cuisine, and bustling cities like Bangkok.</p>
+        <a href="thailand.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/19/14/5a/19145a7273572b57f31b4c7b5aa4f257.jpg" alt="Dubai">
+        <h3>DUBAI</h3>
+        <p>Dubai is a modern city in the UAE known for its futuristic skyline, luxury shopping, and desert adventures.It features iconic landmarks like the Burj Khalifa and world-class entertainment experiences.</p>
+        <a href="dubai.html"><button>Explore</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <div class="cards">
+      <div class="card">
+        <img src="https://t4.ftcdn.net/jpg/03/01/47/07/360_F_301470713_LXlSF9hBEEOwrRzHBq9lNfvJ6uiBKxzW.jpg" alt="Switzerland">
+        <h3>SWITZERLAND</h3>
+        <p>Switzerland is a picturesque European country known for its snow-capped Alps, serene lakes, and charming villages.It offers world-class skiing, chocolates, and a high standard of living.</p>
+        <a href="switzerland.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/483672437/photo/merlion.jpg?s=612x612&w=0&k=20&c=P_buDj2h6ydR-sVFO5nkGyTFehRVECKGvWXrdi50lVg=" alt="Singapore">
+        <h3>SINGAPORE</h3>
+        <p>Singapore is a modern island city-state known for its cleanliness, efficient infrastructure, and vibrant multicultural culture.It offers iconic landmarks like Marina Bay Sands, lush gardens, and world-class shopping.</p>
+        <a href="singapore.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://t4.ftcdn.net/jpg/01/00/21/83/360_F_100218316_WbRzPWf4xNTI2xUfljBxKv7R3RILjVq6.jpg" alt="Malaysia">
+        <h3>MALAYSIA</h3>
+        <p>Malaysia is a Southeast Asian country known for its diverse culture, tropical rainforests, and modern cities.It offers vibrant street food, stunning islands, and landmarks like the Petronas Twin Towers.</p>
+        <a href="malaysia.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://plus.unsplash.com/premium_photo-1697730061063-ad499e343f26?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c291dGglMjBhZnJpY2F8ZW58MHx8MHx8fDA%3D" alt="South Africa">
+        <h3>SOUTH AFRICA</h3>
+        <p>South Africa is a diverse country known for its stunning landscapes, wildlife safaris, and vibrant cultures.It offers iconic sites like Table Mountain, Kruger National Park, and the Cape Winelands.</p>
+        <a href="soutafrica.html"><button>Explore</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <div class="cards">
+      <div class="card">
+        <img src="https://w0.peakpx.com/wallpaper/92/283/HD-wallpaper-sydney-opera-australian-cities-nightscapes-cityscapes-australia-sydney-harbour.jpg" alt="Australia">
+        <h3>AUSTRALIA</h3>
+        <p>Australia is a vast country known for its unique wildlife, stunning beaches, and natural wonders like the Great Barrier Reef.It offers vibrant cities like Sydney and Melbourne, along with rich Indigenous heritage.</p>
+        <a href="australia.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/148543868/photo/park-guell-in-barcelona-spain.jpg?s=612x612&w=0&k=20&c=IYdRNJtNOxNaySqP7oKe37TR7XBQncj623Ye13qCxBs=" alt="Spain">
+        <h3>SPAIN</h3>
+        <p>Spain is a vibrant European country known for its rich history, flamenco music, and stunning architecture.It offers sunny beaches, delicious cuisine, and world-famous landmarks like the Sagrada Família and Alhambra.</p>
+        <a href="spain.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkFvqjpdj1KNrIweAMqusXuNd2WrQaHQwYWQ&s" alt="Europe">
+        <h3>EUROPE</h3>
+        <p>Europe is a diverse continent rich in history, culture, and architectural wonders spanning ancient to modern times.It offers scenic landscapes, iconic landmarks, and a blend of traditions across countries like France, Italy, and Germany.</p>
+        <a href="europe.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://plus.unsplash.com/premium_photo-1682799116921-de130f76c1d0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9uZG9uJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww" alt="London">
+        <h3>LONDON</h3>
+        <p>London, the capital of the United Kingdom, is known for its historic landmarks like Big Ben and the Tower of London.It offers a blend of rich history, modern culture, and world-class museums and theatres.</p>
+        <a href="london.html"><button>Explore</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <div class="cards">
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/2149112736/photo/wat-arun-temple-at-sunset-bangkok-in-thailand.jpg?s=612x612&w=0&k=20&c=1JqYAueTVDWfnj8iwCRlS_VIp-3YBeDp6Wp-Pq19qVk=" alt="Bangkok">
+        <h3>BANGKOK</h3>
+        <p>Bangkok, the capital of Thailand, is known for its vibrant street life, ornate temples, and bustling markets.It offers a dynamic mix of traditional culture and modern skyscrapers along the Chao Phraya River.</p>
+        <a href="bangkok.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://t3.ftcdn.net/jpg/02/92/78/36/360_F_292783691_qYXzNyikvZmW95yP9WTtuCzaZy8mEK8v.jpg" alt="Cape Town">
+        <h3>CAPE TOWN</h3>
+        <p>Cape Town is a coastal city in South Africa known for its stunning landscapes, including Table Mountain and scenic beaches.It offers rich cultural diversity, vibrant neighborhoods, and access to world-class wine regions.</p>
+        <a href="capetown.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/535204076/photo/reflections-in-lake-matheson.jpg?s=612x612&w=0&k=20&c=Ycjk7CiySaHGAMNczp1XY7sNpLYKHx4KyJG10DkO5aY=" alt="New Zealand">
+        <h3>NEW ZEALAND</h3>
+        <p>New Zealand is a scenic island nation known for its breathtaking landscapes, from majestic mountains to pristine beaches.It offers adventure sports, rich Māori culture, and iconic filming locations like those in *The Lord of the Rings*.</p>
+        <a href="newzealand.html"><button>Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://wallpapers.com/images/featured/japanese-nature-9p8zmvnkg9xu44hq.jpg" alt="Japan">
+        <h3>JAPAN</h3>
+        <p>Japan is an island nation known for its blend of ancient traditions and cutting-edge technology.It offers stunning temples, cherry blossoms, and vibrant cities like Tokyo and Kyoto.</p>
+        <a href="japan.html"><button>Explore</button></a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for search -->
+  <script>
+    function searchDestinations() {
+      const input = document.getElementById("searchInput").value.toLowerCase();
+      const cards = document.querySelectorAll(".card");
+      
+      cards.forEach(card => {
+        const title = card.querySelector("h3").innerText.toLowerCase();
+        const text = card.querySelector("p").innerText.toLowerCase();
+        if (title.includes(input) || text.includes(input)) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>

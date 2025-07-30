@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taj Mahal - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>The Taj Mahal</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg" alt="Taj Mahal" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Taj Mahal</h2>
+      <p>
+        The Taj Mahal is a symbol of love and one of the Seven Wonders of the World. Built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal, it's located in Agra, India.
+      </p>
+      <p>
+        The stunning white marble structure took over 20 years to complete and showcases beautiful Mughal architecture, intricate carvings, and a peaceful garden layout.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Completed in 1653, the Taj Mahal includes a mosque, guest house, and reflection pool. It draws millions of visitors every year and is a UNESCO World Heritage Site.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="travel-tips">
+  <h2>Travel Tips for Visiting the Taj Mahal</h2>
+  <ul>
+    <li><strong>Visit Early Morning:</strong> Arrive at sunrise to avoid crowds and capture beautiful photos.</li>
+    <li><strong>No Large Bags:</strong> Security is strict—avoid bringing large bags or tripods.</li>
+    <li><strong>Buy Tickets Online:</strong> Skip the line by booking tickets in advance via the official website.</li>
+    <li><strong>Wear Shoe Covers:</strong> You must wear shoe covers (provided) or go barefoot when entering the mausoleum.</li>
+    <li><strong>Closed on Fridays:</strong> The Taj Mahal is closed to tourists every Friday for prayers.</li>
+    <li><strong>Hire a Guide:</strong> Consider a licensed guide for historical insights and interesting facts.</li>
+    <li><strong>Respect the Rules:</strong> No food, drones, or photography inside the main mausoleum.</li>
+    <li><strong>Hydrate and Dress Comfortably:</strong> Summers in Agra are hot—carry water and wear light clothes.</li>
+  </ul>
+</div>
+
+  <!------ package section ------->
+  <div class="packages-section">
+  <h2>Trip Packages</h2>
+  <div class="packages-container">
+    <div class="package-card">
+      <h3>1-Day Tour</h3>
+      <p>Includes guided visit to Taj Mahal, entry tickets, and transportation from Agra.</p>
+      <p class="price">₹999</p>
+      <button onclick="bookPackage('1-Day Tour')">Book Now</button>
+    </div>
+
+    <div class="package-card">
+      <h3>2-Day Agra Trip</h3>
+      <p>Includes Taj Mahal, Agra Fort, hotel stay, meals, and a local guide.</p>
+      <p class="price">₹2499</p>
+      <button onclick="bookPackage('2-Day Agra Trip')">Book Now</button>
+    </div>
+
+    <div class="package-card">
+      <h3>Luxury Experience</h3>
+      <p>5-star hotel, private guide, VIP Taj Mahal entry, and luxury transport.</p>
+      <p class="price">₹7999</p>
+      <button onclick="bookPackage('Luxury Experience')">Book Now</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+ </footer>
+
+  <script src="tajmahal.js"></script>
+</body>
+</html>

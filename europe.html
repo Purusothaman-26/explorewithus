@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Europe - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Europe</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://images.hindustantimes.com/img/2023/01/11/1600x900/pexels-sevenstorm-juhaszimrus-575362_1673406546125_1673406570360_1673406570360.jpg" alt="Europe" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Europe</h2>
+      <p>
+        Europe is a diverse continent rich in history, culture, art, and breathtaking landscapes.
+      </p>
+      <p>
+        From the Eiffel Tower in Paris to the canals of Venice and the castles of Germany, Europe offers timeless charm and modern elegance.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Explore the romantic streets of Paris, enjoy the northern lights in Scandinavia, take a river cruise through Central Europe, or relax along the Mediterranean coast. Europe promises unforgettable experiences across every border.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Europe</h2>
+    <ul>
+      <li>Paris, France – Eiffel Tower, Louvre Museum, and chic cafés</li>
+      <li>Rome, Italy – Colosseum, Vatican City, and Italian cuisine</li>
+      <li>Amsterdam, Netherlands – Canals, bikes, and Van Gogh Museum</li>
+      <li>Barcelona, Spain – Gaudí’s architecture and vibrant beaches</li>
+      <li>Vienna, Austria – Classical music and elegant palaces</li>
+      <li>Prague, Czech Republic – Fairytale old town and medieval charm</li>
+      <li>Berlin, Germany – History, nightlife, and modern culture</li>
+      <li>Santorini, Greece – Whitewashed houses and stunning sunsets</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Europe</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> May to September for most regions</li>
+      <li><strong>Visa:</strong> Schengen visa required for Indian citizens</li>
+      <li><strong>Transport:</strong> Eurail trains, metros, buses, and low-cost flights</li>
+      <li><strong>Currency:</strong> Euro (€) in most countries</li>
+      <li><strong>Languages:</strong> Varies by country – English widely spoken in tourist areas</li>
+      <li><strong>Weather:</strong> Layered clothing recommended; winters can be cold</li>
+      <li><strong>Food:</strong> Try French pastries, Italian pasta, German sausages, and Spanish tapas</li>
+      <li><strong>Passes:</strong> Use a Eurail Pass or city tourist cards for savings</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages (Flights Included)</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>5-Country Euro Highlights</h3>
+        <p>Flights + Guided tours in France, Italy, Switzerland, Netherlands, and Germany.</p>
+        <p class="price green">₹1,39,999</p>
+        <button onclick="bookPackage('5-Country Euro Highlights')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Classic Europe Explorer</h3>
+        <p>Visit Paris, Rome, and Amsterdam with city passes and hotel stays.</p>
+        <p class="price orange">₹1,74,999</p>
+        <button onclick="bookPackage('Classic Europe Explorer')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Romantic Europe Getaway</h3>
+        <p>Luxury stay in Santorini, Venice, and Paris with candlelight cruises and cultural shows.</p>
+        <p class="price gold">₹2,09,999</p>
+        <button onclick="bookPackage('Romantic Europe Getaway')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="europe.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coorg - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Coorg</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://clubmahindra.gumlet.io/blog/images/Coorg-Chelavara-Falls.jpg?w=376&dpr=2.6" alt="Coorg Landscape" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Coorg</h2>
+      <p>
+        Coorg, also known as Kodagu, is a beautiful hill station in Karnataka famous for its coffee plantations, misty hills, and lush greenery. It’s a serene destination ideal for nature lovers and peace seekers.
+      </p>
+      <p>
+        With its cool climate, rich culture, and scenic beauty, Coorg is often called the "Scotland of India."
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Explore the tranquil Abbey Falls, enjoy a walk through aromatic coffee estates, trek to Tadiandamol Peak, or visit the Dubare Elephant Camp. Coorg offers a peaceful retreat with a blend of adventure and cultural experiences.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Coorg</h2>
+    <ul>
+      <li>Abbey Falls – Picturesque waterfall surrounded by spice plantations</li>
+      <li>Dubare Elephant Camp – Interaction and bathing sessions with elephants</li>
+      <li>Raja’s Seat – Sunset point with panoramic valley views</li>
+      <li>Tadiandamol Peak – Highest peak in Coorg, great for trekking</li>
+      <li>Madikeri Fort – Historical site with colonial-era charm</li>
+      <li>Namdroling Monastery – Golden Temple showcasing Tibetan architecture</li>
+      <li>Cauvery Nisargadhama – Island park with bamboo groves and deer park</li>
+      <li>Omkareshwara Temple – Unique blend of Islamic and Gothic styles</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Coorg</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> October to March for cool weather and clear views.</li>
+      <li><strong>Local transport:</strong> Cabs or rented bikes are best for local travel.</li>
+      <li><strong>Clothing:</strong> Carry light woolens and comfortable shoes for trekking.</li>
+      <li><strong>Connectivity:</strong> Limited mobile signal in remote areas; download offline maps.</li>
+      <li><strong>Wildlife safety:</strong> Avoid wandering into forest trails without guides.</li>
+      <li><strong>Cash:</strong> Carry cash as some areas have limited ATM access.</li>
+      <li><strong>Local food:</strong> Try Coorg pork curry, bamboo shoot dishes, and homemade chocolates.</li>
+      <li><strong>Respect plantations:</strong> Do not pluck coffee or disturb private estates.</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>3-Day Coorg Escape</h3>
+        <p>Visit Abbey Falls, Raja’s Seat, and coffee plantations with guided tours.</p>
+        <p class="price green">₹4999</p>
+        <button onclick="bookPackage('3-Day Coorg Escape')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>5-Day Coorg Explorer</h3>
+        <p>Includes Tadiandamol trekking, elephant camp visit, and monastery tour.</p>
+        <p class="price orange">₹11999</p>
+        <button onclick="bookPackage('5-Day Coorg Explorer')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Coorg Heritage & Wellness</h3>
+        <p>Stay in a luxury estate, enjoy spa sessions and cultural experiences.</p>
+        <p class="price gold">₹18999</p>
+        <button onclick="bookPackage('Coorg Heritage & Wellness')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="coorg.js"></script>
+</body>
+</html>

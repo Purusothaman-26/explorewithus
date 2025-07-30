@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paris - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Paris</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://skysafar.in/wp-content/uploads/2024/08/Paris-5.png" alt="Paris" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Paris</h2>
+      <p>
+        Paris, the capital of France, is renowned for its romantic charm, historic architecture, and world-class cuisine.
+      </p>
+      <p>
+        From the Eiffel Tower to the Louvre Museum, Paris blends elegance, art, and history into an unforgettable experience.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Stroll along the Seine River, enjoy a croissant in a Parisian café, marvel at Notre-Dame Cathedral, or shop on the Champs-Élysées. Paris offers a perfect mix of culture, beauty, and sophistication that enchants every traveler.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Paris</h2>
+    <ul>
+      <li>Eiffel Tower – The iconic symbol of Paris with panoramic city views</li>
+      <li>Louvre Museum – Home to the Mona Lisa and countless art treasures</li>
+      <li>Notre-Dame Cathedral – A masterpiece of Gothic architecture</li>
+      <li>Sacré-Cœur Basilica – Stunning views from Montmartre hill</li>
+      <li>Champs-Élysées – Famous avenue for shopping and dining</li>
+      <li>Seine River Cruise – Romantic boat rides through the heart of the city</li>
+      <li>Palace of Versailles – A magnificent royal residence just outside Paris</li>
+      <li>Latin Quarter – Historic streets filled with culture, cafés, and bookstores</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Paris</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> April to June and September to November for pleasant weather.</li>
+      <li><strong>Visa:</strong> Schengen visa required for Indian citizens and others outside the EU.</li>
+      <li><strong>Language:</strong> French is the official language; basic phrases help.</li>
+      <li><strong>Transport:</strong> Use metro and buses for easy access across the city.</li>
+      <li><strong>Tickets:</strong> Book popular attractions online in advance to skip lines.</li>
+      <li><strong>Safety:</strong> Beware of pickpockets, especially in crowded areas.</li>
+      <li><strong>Currency:</strong> Euro (€); cards are widely accepted.</li>
+      <li><strong>Local etiquette:</strong> Greet with “Bonjour” and be polite in shops and cafes.</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages (Flights Included)</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>3-Day Classic Paris</h3>
+        <p>Flights from India, hotel stay near Eiffel Tower, Louvre & Seine cruise included.</p>
+        <p class="price green">₹69,999</p>
+        <button onclick="bookPackage('3-Day Classic Paris')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>5-Day Romantic Paris Escape</h3>
+        <p>Round-trip flights, luxury hotel, Eiffel dinner cruise, and Paris city tour included.</p>
+        <p class="price orange">₹1,09,999</p>
+        <button onclick="bookPackage('5-Day Romantic Paris Escape')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Paris Honeymoon Special</h3>
+        <p>Airfare, 4 nights in a 4-star hotel, champagne welcome, private photo shoot & Disneyland Paris visit.</p>
+        <p class="price gold">₹1,49,999</p>
+        <button onclick="bookPackage('Paris Honeymoon Special')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="paris.js"></script>
+</body>
+</html>

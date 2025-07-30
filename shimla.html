@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shimla - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Shimla</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://images.pexels.com/photos/3574440/pexels-photo-3574440.jpeg?cs=srgb&dl=pexels-shalenderkumar-3574440.jpg&fm=jpg" alt="Shimla View" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Shimla</h2>
+      <p>
+        Shimla, the capital of Himachal Pradesh, is a charming hill station known for its colonial architecture, scenic beauty, and cool climate. Nestled in the foothills of the Himalayas, it’s a favorite getaway for both honeymooners and families.
+      </p>
+      <p>
+        With its snow-covered peaks, pine forests, and historic sites, Shimla offers a perfect mix of nature and nostalgia.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Walk along the iconic Mall Road, visit the Viceregal Lodge, or ride the UNESCO-listed Kalka–Shimla Toy Train. Whether you're into heritage or hiking, Shimla caters to all types of travelers seeking a serene experience.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Shimla</h2>
+    <ul>
+      <li>Mall Road – Shopping, cafes, and colonial charm</li>
+      <li>The Ridge – Open space with views and cultural events</li>
+      <li>Kalka–Shimla Railway – Scenic toy train ride through mountains</li>
+      <li>Jakhoo Temple – Temple atop a hill with panoramic views</li>
+      <li>Kufri – Nearby snowy retreat with adventure activities</li>
+      <li>Christ Church – Iconic landmark with Neo-Gothic architecture</li>
+      <li>Viceregal Lodge – Historic residence turned institute</li>
+      <li>Green Valley – Lush and photogenic pine valley</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Shimla</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> March to June and December for snow.</li>
+      <li><strong>Clothing:</strong> Pack woolens, especially in winter; layer up.</li>
+      <li><strong>Transport:</strong> Use local cabs or walk around the central area.</li>
+      <li><strong>Altitude care:</strong> Stay hydrated and avoid overexertion.</li>
+      <li><strong>Stay safe:</strong> Avoid walking alone late at night near forested areas.</li>
+      <li><strong>Weather:</strong> Watch for snowfall warnings during winter.</li>
+      <li><strong>Shopping:</strong> Look for woolens, wooden artifacts, and Himachali crafts.</li>
+      <li><strong>Photography:</strong> Respect local customs when clicking pictures at temples.</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>3-Day Shimla Delight</h3>
+        <p>Explore Mall Road, Jakhoo Temple, and Christ Church with local guides.</p>
+        <p class="price green">₹5499</p>
+        <button onclick="bookPackage('3-Day Shimla Delight')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>5-Day Shimla Explorer</h3>
+        <p>Includes Kufri day trip, toy train ride, and Viceregal Lodge visit.</p>
+        <p class="price orange">₹12499</p>
+        <button onclick="bookPackage('5-Day Shimla Explorer')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Shimla Snow & Serenity</h3>
+        <p>Luxury stay with snowfall views, spa treatments, and candlelight dinners.</p>
+        <p class="price gold">₹20999</p>
+        <button onclick="bookPackage('Shimla Snow & Serenity')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="shimla.js"></script>
+</body>
+</html>

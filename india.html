@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ExploreWithUs - India Destinations</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .search-section {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    #searchInput {
+      width: 60%;
+      padding: 12px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      width: 280px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: 0.3s;
+      background: #fff;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+    }
+
+    .card button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #350cd6;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ExploreWithUs - India</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="india.html">India</a>
+      <a href="internationals.html">Internationals</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+<section class="hero">
+    <h2>Explore India's Top Spots</h2>
+    <p>Experience the culture, beauty, and diversity of India</p>
+    <button onclick="scrollToIndiaBooking()">Plan a Trip</button>
+  </section>
+  
+  <!-- Search Bar -->
+  <section class="search-section">
+    <input type="text" id="searchInput" placeholder="Search a place..." onkeyup="searchDestinations()" />
+  </section>
+
+  <!-- All Destination Sections -->
+  <!-- COPY ALL YOUR DESTINATION <section class="destinations"> ... </section> BLOCKS HERE -->
+  <!-- For brevity, I’m adding one example card -->
+
+  
+  <section class="destinations">
+    <h2>Top Indian Destinations</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://www.holidify.com/images/bgImages/AGRA.jpg" alt="Agra">
+        <h3>AGRA</h3>
+        <p>Home to the **Taj Mahal**, one of the Seven Wonders of the World, Agra showcases Mughal architecture and rich history.</p>
+        <a href="tajmahal.html"><button onclick="showDetails('Agra')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://www.holidify.com/images/bgImages/JAIPUR.jpg" alt="Jaipur">
+        <h3>JAIPUR</h3>
+        <p>**Jaipur**, the capital of Rajasthan, is famously known as the **Pink City** for its distinctly colored buildings and royal heritage. It boasts magnificent forts, palaces, and vibrant bazaars that reflect rich Rajasthani culture.</p>
+        <a href="jaipur.html"><button onclick="showDetails('Jaipur')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/1323846766/photo/a-beautiful-view-of-dal-lake-in-winter-srinagar-kashmir-india.jpg?s=612x612&w=0&k=20&c=Dp3peie2t-jdLEmqe4W-DD09GACu2Cr-JjHHeB6rpBc=" alt="Jammu and Kashmir">
+        <h3>JAMMU AND KASHMIR</h3>
+        <p>**Jammu and Kashmir** is a stunning region known for its snow-capped mountains, pristine lakes, and scenic valleys. It's a paradise for nature lovers, adventure seekers, and spiritual travelers alike.</p>
+        <a href="jammu.html"><button onclick="showDetails('Jammu and Kashmir')">Explore</button></a>
+      </div>
+        <div class="card">
+        <img src="https://images.unsplash.com/photo-1696966358360-f64c761e0cb5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9ydCUyMGtvY2hpfGVufDB8fDB8fHww" alt="Kochi">
+        <h3>KOCHI</h3>
+        <p>**Kochi**, also known as the Queen of the Arabian Sea, is a vibrant port city in Kerala blending colonial charm with coastal beauty. It's famous for its backwaters, Chinese fishing nets, and rich cultural heritage.</p>
+        <a href="kochi.html"><button onclick="showDetails('Kochi')">Explore</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <div class="cards">
+        <div class="card">
+        <img src="https://t4.ftcdn.net/jpg/13/32/42/49/360_F_1332424993_kNwAnQBNf1GpsNcQbsjYcKzS7biIgM2W.jpg" alt="Munnar">
+        <h3>MUNNAR</h3>
+        <p>**Munnar** is a picturesque hill station in Kerala, known for its rolling tea plantations, misty hills, and cool climate. It's a perfect retreat for nature lovers and honeymooners alike.</p>
+        <a href="munnar.html"><button onclick="showDetails('Munnar')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://c0.wallpaperflare.com/preview/163/513/284/ooty-india-hills-station-nature-thumbnail.jpg" alt="Ooty">
+        <h3>OOTY</h3>
+        <p>**Ooty**, often called the "Queen of Hill Stations," is a serene getaway in Tamil Nadu surrounded by lush green hills and tea gardens. It's known for its pleasant climate, scenic train rides, and botanical gardens.</p>
+        <a href="ooty.html"><button onclick="showDetails('Ooty')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://api.theindia.co.in/storage/image/places/banner_S29kYWlrYW5hbF9sYWtlX2J5X2ppZ25lc2hnb2hpbDIxMDQyNzk4Ng==.jpg" alt="Kodaikanal">
+        <h3>KODAIKANAL</h3>
+        <p>**Kodaikanal** is a charming hill station in Tamil Nadu, known for its cool climate, mist-covered valleys, and beautiful lakes. It's a popular destination for nature lovers and peaceful retreats.</p>
+        <a href="kodaikanal.html"><button onclick="showDetails('Kodaikanal')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://i0.wp.com/weekendyaari.in/wp-content/uploads/2024/06/yaari-.webp?fit=864%2C532&ssl=1" alt="Wayanad">
+        <h3>WAYANAD</h3>
+        <p>**Wayanad** is a lush green district in Kerala, known for its misty mountains, waterfalls, and wildlife sanctuaries. It's an ideal destination for eco-tourism, trekking, and exploring nature.</p>
+        <a href="waynadu.html"><button onclick="showDetails('Wayanad')">Explore</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <div class="cards">
+        <div class="card">
+        <img src="https://media.istockphoto.com/id/1311786286/photo/stunning-view-of-a-boat-sailing-on-the-alleppeys-backwaters-during-a-beautiful-sunset-kerala.jpg?s=612x612&w=0&k=20&c=7eb2naEpD6qJ55_anCmqx01NxNVyKoHHw_ii7Rabd30=" alt="Alleppey">
+        <h3>ALLEPPEY</h3>
+        <p>**Alleppey**, also known as Alappuzha, is famous for its tranquil backwaters, houseboat cruises, and scenic beauty. It's often called the "Venice of the East" for its intricate network of waterways.</p>
+        <a href="alleppey.html"><button onclick="showDetails('Alleppey')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://www.shutterstock.com/shutterstock/videos/1103139785/thumb/1.jpg?ip=x480" alt="Hyderabad">
+        <h3>HYDERABAD</h3>
+        <p>**Hyderabad**, the City of Pearls, blends rich history with modern development, known for its iconic Charminar and tech hubs. It's also famous for its biryani, palaces, and vibrant culture.</p>
+        <a href="hyderbad.html"><button onclick="showDetails('Hyderabad')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://i0.wp.com/kaziranganationalparkassam.in/wp-content/uploads/2020/12/Shinihas-Photography-GA08.jpg?resize=648%2C431&ssl=1" alt="Assam">
+        <h3>ASSAM</h3>
+        <p>**Assam** is a northeastern state known for its lush tea gardens, rich wildlife, and the mighty Brahmaputra River. It boasts vibrant culture, traditional Bihu dance, and the famous Kaziranga National Park.</p>
+        <a href="assam.html"><button onclick="showDetails('Assam')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://www.trawell.in/admin/images/upload/377739609Varkala_cliff.jpg" alt="Varkala">
+        <h3>VARKALA</h3>
+        <p>**Varkala** is a serene coastal town in Kerala, famous for its stunning cliffside beaches and natural springs. It's a peaceful destination known for yoga, wellness retreats, and spiritual ambiance.</p>
+        <a href="varkala.html"><button onclick="showDetails('varkala')">Explore</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <div class="cards">
+        <div class="card">
+        <img src="https://media.istockphoto.com/id/1061972184/photo/landscape-of-snow-mountains-and-mountain-road-to-nubra-valley-in-leh-ladakh-india.jpg?s=612x612&w=0&k=20&c=i0pA6oVMEzUgBLp5V7CblN1wPwOO7A2D3orhfi7HGe4=" alt="Ladakh">
+        <h3>LADAKH</h3>
+        <p>**Ladakh** is a breathtaking high-altitude desert in northern India, known for its rugged mountains, clear blue skies, and ancient monasteries. It's a haven for adventure seekers, offering trekking, biking, and stunning landscapes like Pangong Lake.</p>
+        <a href="ladakh.html"><button onclick="showDetails('Ladakh')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://trawelmart.com/_next/image?url=https%3A%2F%2Ftrawel.blob.core.windows.net%2Ftrawel%2Fcontent_files%2FLakshadweep%2Fd3f86f80-622.jpg&w=3840&q=75" alt="Lakashadeep">
+        <h3>LAKASHADEEP</h3>
+        <p>**Lakshadweep** is a tropical archipelago of coral islands in the Arabian Sea, known for its crystal-clear waters, white-sand beaches, and vibrant marine life. It's a perfect destination for snorkeling, scuba diving, and peaceful island getaways.</p>
+        <a href="lakashadeep.html"><button onclick="showDetails('Lakashadeep')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://www.namasteindiatrip.com/blog/wp-content/uploads/2019/04/Port-blair.jpg" alt="Andaman and nicobar">
+        <h3>ANDAMAN AND NICOBAR</h3>
+        <p>**Andaman and Nicobar Islands** are a group of pristine islands in the Bay of Bengal, known for their turquoise waters, coral reefs, and tropical forests. They offer rich history, adventure sports, and serene beach escapes.</p>
+       <a href="andaman.html"><button onclick="showDetails('Andaman and nicobar')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://www.jaigaontourandtravels.com/wp-content/uploads/2024/05/solang-valley.jpg" alt="Manali">
+        <h3>MANALI</h3>
+        <p>**Manali** is a popular hill station in Himachal Pradesh, known for its snow-capped mountains, scenic valleys, and adventure activities. It's a favorite destination for honeymooners and thrill-seekers alike.</p>
+        <a href="manali.html"><button onclick="showDetails('Manali')">Explore</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <div class="cards">
+        <div class="card">
+        <img src="https://img.freepik.com/free-photo/tropical-beach-with-palm-sri-lanka_167946-162.jpg" alt="Goa">
+        <h3>GOA</h3>
+        <p>**Goa** is a coastal paradise on the western coast of India, famous for its golden beaches, vibrant nightlife, and Portuguese heritage. It's a top destination for parties, water sports, and laid-back vacations.</p>
+        <a href="goa.html"><button onclick="showDetails('Agra')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://www.shutterstock.com/image-photo/scenic-kote-abbe-falls-coorg-600nw-2439266775.jpg" alt="Coorg">
+        <h3>COORG</h3>
+        <p>**Coorg**, also known as Kodagu, is a picturesque hill station in Karnataka known for its coffee plantations, misty hills, and lush greenery. It's a peaceful retreat ideal for nature lovers and adventure enthusiasts.</p>
+        <a href="coorg.html"><button onclick="showDetails('Coorg')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/1224392597/photo/after-snowfall-kalka-shimla-railway-is-a-beautiful-place-in-india.jpg?s=612x612&w=0&k=20&c=_Brr2sB4Amjr2R9j2kjDcuA6b0OH6IybCd1JvcaMBkw=" alt="Shimla">
+        <h3>SHIMLA</h3>
+        <p>**Shimla**, the capital of Himachal Pradesh, is a charming hill station known for its colonial architecture, pine-covered hills, and pleasant climate. It's a favorite getaway for snow lovers and romantic holidays.</p>
+        <a href="shimla.html"><button onclick="showDetails('Shimla')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPjqEnqsvQKU2MVxzmmLtuuazB5-M5y9VAqw&s" alt="Mysore">
+        <h3>MYSORE</h3>
+        <p>**Mysore**, in Karnataka, is a heritage city known for its majestic Mysore Palace, vibrant Dasara festival, and rich cultural legacy. It's also famous for sandalwood, silk, and traditional arts.</p>
+        <a href="mysore.html"><button onclick="showDetails('Mysore')">Explore</button></a>
+      </div>
+    </div>
+  </section>
+  <section class="destinations">
+    <div class="cards">
+        <div class="card">
+        <img src="https://assets.travclan.com/unsafe/0x500/smart/https://s3.ap-south-1.amazonaws.com/com.travclan.b2b2c/b2b2c_listing/test/images/1747391/1705420833.903848/0.25659555898418407/Kedarnath_temple.jpeg" alt="Kedarnath">
+        <h3>KEDARNATH</h3>
+        <p>**Kedarnath** is a sacred Hindu pilgrimage site nestled in the Himalayas of Uttarakhand, home to one of the twelve Jyotirlingas of Lord Shiva. Surrounded by snow-capped peaks, it offers both spiritual solace and breathtaking natural beauty.</p>
+        <a href="kedarnath.html"><button onclick="showDetails('Kedarnath')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8xOS_yGcYa3-dSSJTPVHjCTU-cQrAr4Er5Q&s" alt="Thirpati">
+        <h3>THIRPATI</h3>
+        <p>**Tirupati**, located in Andhra Pradesh, is one of the most revered pilgrimage centers in India, famous for the **Sri Venkateswara Temple** on Tirumala Hill. It attracts millions of devotees each year seeking blessings and spiritual fulfillment.</p>
+        <a href="thirupati.html"><button onclick="showDetails('thirpati')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://t3.ftcdn.net/jpg/07/15/03/34/360_F_715033439_ZJK0XCr3CvEYkYRpaENzYvj5EIAEkaux.jpg" alt="Ayodhya">
+        <h3>AYODHYA</h3>
+        <p>**Ayodhya**, located in Uttar Pradesh, is an ancient and sacred city believed to be the birthplace of Lord Rama. It holds great religious significance and is known for its temples, ghats, and spiritual heritage.</p>
+        <a href="ayodhya.html"><button onclick="showDetails('ayodhya')">Explore</button></a>
+      </div>
+      <div class="card">
+        <img src="https://t3.ftcdn.net/jpg/00/79/37/88/360_F_79378891_k4Lq0nFbWdC4AICYoPOWYzhGI7YwgMvG.jpg" alt="Kolkata">
+        <h3>KOLKATA</h3>
+        <p>**Kolkata**, the cultural capital of India, is known for its colonial architecture, vibrant arts scene, and intellectual heritage. It’s home to iconic landmarks like the Victoria Memorial, Howrah Bridge, and lively street life.</p>
+        <a href="kolkata.html"><button onclick="showDetails('kolkata')">Explore</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Add all remaining destination <section class="destinations"> blocks below, like you already have -->
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+  <!-- JS -->
+  <script>
+    function searchDestinations() {
+      const input = document.getElementById("searchInput").value.toLowerCase();
+      const cards = document.querySelectorAll(".card");
+
+      cards.forEach(card => {
+        const title = card.querySelector("h3").innerText.toLowerCase();
+        const description = card.querySelector("p").innerText.toLowerCase();
+
+        if (title.includes(input) || description.includes(input)) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    }
+
+    function showDetails(place) {
+      console.log("Navigating to details of:", place);
+      // You can add more logic here if needed
+    }
+  </script>
+</body>
+</html>

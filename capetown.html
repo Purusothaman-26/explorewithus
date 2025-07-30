@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cape Town - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Cape Town</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://www.destination-innovation.com/wp-content/uploads/2018/12/cape-town-1562907_1920.jpg" alt="Cape Town" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Cape Town</h2>
+      <p>
+        Cape Town is a stunning coastal city in South Africa known for its dramatic Table Mountain backdrop and natural beauty.
+      </p>
+      <p>
+        From golden beaches to historic sites and vineyards, Cape Town blends adventure, culture, and relaxation.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Take a cable car up Table Mountain, visit Robben Island where Nelson Mandela was imprisoned, explore the colorful Bo-Kaap district, or take scenic drives along Chapman’s Peak. Cape Town is a treasure for nature and culture lovers.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Cape Town</h2>
+    <ul>
+      <li>Table Mountain – Iconic flat-topped mountain with panoramic views</li>
+      <li>Robben Island – Historic prison and UNESCO World Heritage Site</li>
+      <li>Victoria & Alfred Waterfront – Shopping, dining, and harbor cruises</li>
+      <li>Bo-Kaap – Colorful houses and Cape Malay culture</li>
+      <li>Chapman's Peak Drive – Scenic oceanfront road trip</li>
+      <li>Clifton & Camps Bay – Beautiful beaches and sunset views</li>
+      <li>Kirstenbosch Gardens – Renowned botanical gardens at mountain’s base</li>
+      <li>Cape Point – Dramatic coastal cliffs and nature reserve</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Cape Town</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> November to March (warm and dry summer)</li>
+      <li><strong>Visa:</strong> Required for Indian citizens; apply in advance</li>
+      <li><strong>Transport:</strong> Rental cars, taxis, MyCiTi buses, and guided tours</li>
+      <li><strong>Currency:</strong> South African Rand (ZAR)</li>
+      <li><strong>Language:</strong> English is widely spoken</li>
+      <li><strong>Safety:</strong> Be cautious in isolated areas; use trusted transport</li>
+      <li><strong>Food:</strong> Try local dishes like bobotie, braai, and Cape Malay curry</li>
+      <li><strong>Health:</strong> Tap water is safe, but sunscreen is essential in summer</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages (Flights Included)</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>4-Day Cape Town Explorer</h3>
+        <p>Flights + Table Mountain, Robben Island tour, and beach time.</p>
+        <p class="price green">₹84,999</p>
+        <button onclick="bookPackage('4-Day Cape Town Explorer')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>6-Day Cape & Safari Combo</h3>
+        <p>Includes Cape Town sights plus a 2-day African safari experience.</p>
+        <p class="price orange">₹1,49,999</p>
+        <button onclick="bookPackage('6-Day Cape & Safari Combo')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Luxury South Africa Experience</h3>
+        <p>5-star stays, wine tastings, private tours, and Cape Winelands visit.</p>
+        <p class="price gold">₹2,29,999</p>
+        <button onclick="bookPackage('Luxury South Africa Experience')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="capetown.js"></script>
+</body>
+</html>

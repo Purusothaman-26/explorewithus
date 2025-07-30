@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ExploreWithUs - Travel Agency</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>ExploreWithUs</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="india.html">India</a>
+      <a href="internationals.html">Internationals</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Adventure Awaits</h2>
+    <p>Discover your next destination with us</p>
+    <button onclick="scrollToBooking()">Book Now</button>
+  </section>
+
+  <section class="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="cards">
+      <div class="card">
+         <img src="https://i.ytimg.com/vi/c1tCK4WMJu0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLClPDeX9og48t9wyHGDES4GSZtd-A" alt="Varkala" height="300px" width="300px">
+         <h3>VARKALA</h3>
+         <p>**Varkala** is a serene coastal town in Kerala, India, known for its stunning **cliffside beaches**, natural springs, and spiritual vibes. It's a peaceful blend of **nature, wellness, and culture**—perfect for relaxing and recharging.</p> 
+      </div>
+
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/535168027/photo/india-goa-palolem-beach.jpg?s=612x612&w=0&k=20&c=iGV1Ue0Efj87dQirWnUpZVG1dNobUjfVvMGdKHTJ7Qg=" alt="Goa" height="300px" width="300px">
+        <h3>GOA</h3>
+        <p>**Alleppey**, often called the **"Venice of the East,"** is famous for its tranquil **backwaters, houseboat cruises**, and scenic **paddy fields**. It offers a unique experience of Kerala’s rural charm and natural beauty.</p> 
+      </div>
+      <div class="card">
+        <img src="https://traveltradejournal.com/wp-content/uploads/2023/01/Kargil-Ladakh.jpg" alt="Ladakh"  height="300px" width="300px">
+        <h3>LADAKH</h3>
+        <p>**Wayanad** is a lush hill district in Kerala, known for its **misty mountains, waterfalls, wildlife sanctuaries**, and **spice plantations**. It's a perfect escape for nature lovers and adventure seekers.</p> 
+      </div>
+      <div class="card">
+         <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2024/01/09174142/feature-1600x900.jpeg" alt="Lakashadeep" height="300px" width="300px">
+         <h3>LAKASHADEEP</h3>
+         <p>**Varkala** is a serene coastal town in Kerala, India, known for its stunning **cliffside beaches**, natural springs, and spiritual vibes. It's a peaceful blend of **nature, wellness, and culture**—perfect for relaxing and recharging.</p> 
+      </div>
+    </div>
+  </section>
+
+  <section class="booking" id="booking">
+    <h2>Book Your Trip</h2>
+    <form id="bookingForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Email Address" required />
+      <select required>
+        <option value="">Choose Destination</option>
+        <option value="Paris">Varkala</option>
+        <option value="Bali">Alleppey</option>
+        <option value="New York">Wayanad</option>
+      </select>
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bali - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bali</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://www.agoda.com/wp-content/uploads/2020/01/Besakih-Temple-places-to-visit-in-Bali.jpg" alt="Bali" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Bali</h2>
+      <p>
+        Bali, the Indonesian island paradise, is famous for its forested volcanic mountains, iconic rice paddies, and beautiful beaches.
+      </p>
+      <p>
+        Whether it's surfing in Kuta, temple hopping in Ubud, or relaxing in Seminyak, Bali offers a perfect blend of nature, culture, and adventure.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Explore sacred temples like Tanah Lot and Uluwatu, enjoy Balinese cuisine, witness traditional dances, or rejuvenate with world-renowned wellness retreats. Bali captivates with its serene spirituality and tropical charm.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Bali</h2>
+    <ul>
+      <li>Ubud – Cultural heart of Bali with rice terraces and art markets</li>
+      <li>Kuta Beach – Surfing, nightlife, and lively atmosphere</li>
+      <li>Seminyak – Trendy beach town with upscale resorts and cafés</li>
+      <li>Uluwatu – Clifftop temples and epic sunsets</li>
+      <li>Nusa Penida – Island escape with crystal-clear waters</li>
+      <li>Mount Batur – Volcano hiking and sunrise views</li>
+      <li>Tanah Lot – Sea temple with scenic ocean backdrops</li>
+      <li>Tegallalang – Famous for stunning rice terrace landscapes</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Bali</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> April to October (dry season)</li>
+      <li><strong>Visa:</strong> Visa on arrival available for most countries</li>
+      <li><strong>Transport:</strong> Hire scooters or private drivers to explore easily</li>
+      <li><strong>Currency:</strong> Indonesian Rupiah (IDR)</li>
+      <li><strong>Dress code:</strong> Modest attire for temple visits</li>
+      <li><strong>Etiquette:</strong> Respect local customs and religious ceremonies</li>
+      <li><strong>Health:</strong> Use mosquito repellent and drink bottled water</li>
+      <li><strong>Connectivity:</strong> Local SIM cards are cheap and widely available</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages (Flights Included)</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>3-Day Bali Getaway</h3>
+        <p>Flights from India, Ubud stay, temple tours, and traditional Balinese massage.</p>
+        <p class="price green">₹29,999</p>
+        <button onclick="bookPackage('3-Day Bali Getaway')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>5-Day Island Explorer</h3>
+        <p>Includes flights, Nusa Penida trip, Uluwatu sunset tour, and beachside resort stay.</p>
+        <p class="price orange">₹49,999</p>
+        <button onclick="bookPackage('5-Day Island Explorer')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Bali Honeymoon Paradise</h3>
+        <p>Romantic stays in Seminyak & Ubud, private candlelight dinner, spa & couple photoshoot.</p>
+        <p class="price gold">₹84,999</p>
+        <button onclick="bookPackage('Bali Honeymoon Paradise')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="bali.js"></script>
+</body>
+</html>

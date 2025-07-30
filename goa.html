@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Goa - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Goa</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://c4.wallpaperflare.com/wallpaper/12/820/6/resort-beach-goa-india-wallpaper-preview.jpg" alt="Goa Beach" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Goa</h2>
+      <p>
+        Goa, located on the western coast of India, is renowned for its golden beaches, vibrant nightlife, Portuguese heritage, and relaxed vibe. It’s a top destination for beach lovers and partygoers.
+      </p>
+      <p>
+        From ancient churches to bustling markets and serene backwaters, Goa blends Indian and Portuguese cultures into a unique coastal paradise.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Visit the famous Baga and Calangute beaches for sun and surf, explore the historical churches of Old Goa, cruise the Mandovi River at sunset, or try your luck at one of the floating casinos. Goa offers something for every kind of traveler.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Goa</h2>
+    <ul>
+      <li>Baga Beach – Watersports, nightlife, and beach shacks</li>
+      <li>Calangute Beach – Bustling and family-friendly beach</li>
+      <li>Fort Aguada – Scenic fort with panoramic sea views</li>
+      <li>Old Goa – UNESCO churches and colonial history</li>
+      <li>Dudhsagar Falls – Majestic waterfall surrounded by forest</li>
+      <li>Chapora Fort – Sunset views and film-famous backdrop</li>
+      <li>Anjuna Market – Boho shopping and flea market charm</li>
+      <li>Palolem Beach – Quiet southern beach with dolphin spotting</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Goa</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> November to February for pleasant weather and festivals.</li>
+      <li><strong>Local transport:</strong> Rent scooters or cars to explore freely.</li>
+      <li><strong>Nightlife:</strong> Enjoy responsibly; check closing times and licenses.</li>
+      <li><strong>Beach safety:</strong> Swim only in designated areas with lifeguards.</li>
+      <li><strong>Sun protection:</strong> Carry sunscreen, sunglasses, and hats.</li>
+      <li><strong>Local food:</strong> Try Goan fish curry, bebinca, and feni responsibly.</li>
+      <li><strong>Dress code:</strong> Modest dress is expected in religious places.</li>
+      <li><strong>Respect nature:</strong> Avoid littering and damaging sand dunes or corals.</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>3-Day North Goa Escape</h3>
+        <p>Visit Baga, Calangute, Fort Aguada, and enjoy nightlife and beach fun.</p>
+        <p class="price green">₹5999</p>
+        <button onclick="bookPackage('3-Day North Goa Escape')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>5-Day Full Goa Explorer</h3>
+        <p>Includes South Goa, Old Goa churches, Dudhsagar Falls, and island cruise.</p>
+        <p class="price orange">₹13999</p>
+        <button onclick="bookPackage('5-Day Full Goa Explorer')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Goa Luxury Leisure</h3>
+        <p>Stay in premium beachfront resorts, guided heritage tours, and spa sessions.</p>
+        <p class="price gold">₹21999</p>
+        <button onclick="bookPackage('Goa Luxury Leisure')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="goa.js"></script>
+</body>
+</html>

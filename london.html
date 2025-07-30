@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>London - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>London</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://www.visitlondon.com/-/media/images/london/visit/general-london/london-skyline-at-dusk-related.jpg?mw=640&rev=ad27e301c6114e12ba3b5233ca546f29&hash=4B8B831471E8759530B22C308ABFE223" alt="London" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About London</h2>
+      <p>
+        London, the capital of the United Kingdom, is a city steeped in history, culture, and architectural marvels.
+      </p>
+      <p>
+        From Buckingham Palace and the London Eye to vibrant markets and theaters, London offers a perfect blend of heritage and modernity.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Walk across Tower Bridge, witness the Changing of the Guard at Buckingham Palace, explore the British Museum, or shop at Oxford Street. London’s charm lies in its royal traditions and cosmopolitan energy.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in London</h2>
+    <ul>
+      <li>Big Ben & Westminster – Iconic clock tower and government buildings</li>
+      <li>London Eye – Giant observation wheel with city views</li>
+      <li>British Museum – Ancient artifacts including the Rosetta Stone</li>
+      <li>Tower of London – Historic fortress and Crown Jewels</li>
+      <li>Buckingham Palace – Royal residence and guard ceremony</li>
+      <li>Hyde Park – Green space for boating and relaxation</li>
+      <li>Camden Market – Eclectic shopping and street food</li>
+      <li>West End – World-class theatre performances and musicals</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting London</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> April to September for pleasant weather</li>
+      <li><strong>Visa:</strong> Standard visitor visa required for Indian citizens</li>
+      <li><strong>Transport:</strong> London Underground (Tube), buses, and Oyster card</li>
+      <li><strong>Currency:</strong> British Pound (GBP)</li>
+      <li><strong>Language:</strong> English</li>
+      <li><strong>Weather:</strong> Carry an umbrella—weather changes quickly</li>
+      <li><strong>Food:</strong> Try fish & chips, English breakfast, and afternoon tea</li>
+      <li><strong>Passes:</strong> London Pass for discounted attraction entries</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages (Flights Included)</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>3-Day London Explorer</h3>
+        <p>Flights + London Eye, river cruise, and guided city tour.</p>
+        <p class="price green">₹74,999</p>
+        <button onclick="bookPackage('3-Day London Explorer')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>5-Day Royal London Tour</h3>
+        <p>Includes Westminster Abbey, Tower of London, and Windsor Castle visit.</p>
+        <p class="price orange">₹1,19,999</p>
+        <button onclick="bookPackage('5-Day Royal London Tour')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Romantic London Getaway</h3>
+        <p>Luxury hotel stay, Thames dinner cruise, and West End show.</p>
+        <p class="price gold">₹1,49,999</p>
+        <button onclick="bookPackage('Romantic London Getaway')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="london.js"></script>
+</body>
+</html>

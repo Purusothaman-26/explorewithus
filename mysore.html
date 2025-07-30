@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mysore - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Mysore</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://t4.ftcdn.net/jpg/00/79/74/23/360_F_79742371_AoESSM9VhbXVKlDJeQvNmwudJxbk32E4.jpg" alt="Mysore Palace" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Mysore</h2>
+      <p>
+        Mysore, located in Karnataka, is a city rich in heritage, royal history, and vibrant traditions. Known as the Cultural Capital of Karnataka, it’s famous for the grand Mysore Palace and the colorful Dussehra festival.
+      </p>
+      <p>
+        With its palaces, gardens, temples, and silk sarees, Mysore offers an enriching cultural experience wrapped in regal charm.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Don't miss the mesmerizing Mysore Palace illumination, explore the historic Chamundi Hill, stroll through the peaceful Brindavan Gardens, and indulge in Mysore Pak. The city blends grandeur, spirituality, and tradition effortlessly.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Mysore</h2>
+    <ul>
+      <li>Mysore Palace – Magnificent Indo-Saracenic royal residence</li>
+      <li>Chamundi Hill – Sacred hill with panoramic city views and a temple</li>
+      <li>Brindavan Gardens – Famous for musical fountains and floral beauty</li>
+      <li>St. Philomena's Church – One of the tallest churches in Asia</li>
+      <li>Mysore Zoo – Well-maintained zoo with diverse wildlife</li>
+      <li>Rail Museum – Vintage trains and engines on display</li>
+      <li>Karanji Lake – Serene lake with boating and butterfly park</li>
+      <li>Lalitha Mahal – Heritage hotel with royal architecture</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Mysore</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> October to February for pleasant weather.</li>
+      <li><strong>Clothing:</strong> Light cottons for the day; a jacket for evenings in winter.</li>
+      <li><strong>Transport:</strong> Auto-rickshaws and app-based taxis are easily available.</li>
+      <li><strong>Local culture:</strong> Respect traditions, especially around temples.</li>
+      <li><strong>Festivals:</strong> Visit during Dussehra for cultural events and processions.</li>
+      <li><strong>Food:</strong> Try Mysore Masala Dosa and authentic South Indian thali.</li>
+      <li><strong>Shopping:</strong> Great for silk sarees, sandalwood, and handicrafts.</li>
+      <li><strong>Timing:</strong> Check palace lighting schedule for evening visits.</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>2-Day Mysore Magic</h3>
+        <p>Includes palace visit, Chamundi Hill, and local shopping tour.</p>
+        <p class="price green">₹3999</p>
+        <button onclick="bookPackage('2-Day Mysore Magic')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>4-Day Mysore & Gardens</h3>
+        <p>Features Brindavan Gardens, St. Philomena’s Church, and Mysore Zoo.</p>
+        <p class="price orange">₹9999</p>
+        <button onclick="bookPackage('4-Day Mysore & Gardens')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Mysore Royal Retreat</h3>
+        <p>Stay in heritage hotels, enjoy traditional performances, and guided tours.</p>
+        <p class="price gold">₹15999</p>
+        <button onclick="bookPackage('Mysore Royal Retreat')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="mysore.js"></script>
+</body>
+</html>

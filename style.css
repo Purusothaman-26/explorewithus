@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f9fd;
+  color: #333;
+  line-height: 1.6;
+  background: #333;
+}
+
+header {
+  background: #1e88e5;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x600/?travel') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+h2 {
+    color: pink;
+}
+.hero h2 {
+  font-size: 48px;
+  color: white
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.destinations {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
+}
+
+.card {
+  background: white;
+  
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.booking {
+  padding: 40px 20px;
+  background: #e3f2fd;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #e5951e;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1565c0;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/*------------- contact styling ---------------*/
+
+
+
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-wrapper {
+  width: 100%;
+  padding: 100px 10px 0;
+  background-color: #1f242d;
+}
+
+.contact-container {
+  flex: 1 1 calc(33.33% - 40px); /* ✅ Fixed spacing */
+  max-width: 300px;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s;
+}
+.contact-container:hover {
+    transform: translateY(-5px);
+}
+h2 {
+  color: #1a237e;
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.contact-list a {
+  color: #1061db;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+h2 {
+    color: #e5951e;
+}
+button {
+    background: crimson;
+}
+
+/*-------------- jaj mahal section -------------*/
+
+
+.taj-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+.taj-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.taj-content {
+  padding: 20px 0;
+}
+
+.taj-content h2 {
+  color: #e5951e;
+  margin-bottom: 15px;
+}
+
+.taj-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #a30000;
+}
+
+.extra-info {
+  margin-top: 15px;
+  display: none;
+  background-color: #fff3e0;
+  padding: 15px;
+  border-left: 4px solid #ff9800;
+  border-radius: 6px;
+}
+
+
+
+
+.packages-section {
+  padding: 40px 20px;
+  background: #100f10;
+  text-align: center;
+}
+
+.packages-section h2 {
+  color: #e5951e;
+  margin-bottom: 30px;
+}
+
+.packages-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.package-card {
+  background: rgb(245, 245, 250);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(12, 12, 12, 0.871);
+  width: 280px;
+  transition: transform 0.3s;
+}
+
+.package-card:hover {
+  transform: translateY(-5px);
+}
+
+.package-card h3 {
+  margin-bottom: 10px;
+  color: #1565c0;
+}
+
+.package-card p {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+  color: #39ae27; /* Green — change this to your preferred color */
+}
+
+/*---------  jaipur section --------------*/
+.price {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.price.green {
+  color: #27ae60;
+}
+
+.price.orange {
+  color: #e67e22;
+}
+
+.price.gold {
+  color: #f1c40f;
+}
+/*-------------- jammu destinations ------------*/
+.top-destinations {
+  padding: 40px 20px;
+  background-color: #eef5fa;
+  text-align: center;
+  border-top: 2px solid #ccc;
+}
+
+.top-destinations h2 {
+  color: #1e88e5;
+  margin-bottom: 25px;
+}
+
+.top-destinations ul {
+  list-style: disc inside;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+}
+/*------- tips for jammu -----------*/
+.travel-tips {
+  padding: 40px 20px;
+  background-color: #fdf9f1;
+  text-align: center;
+  border-top: 2px dashed #e0b146;
+}
+
+.travel-tips h2 {
+  color: #d35400;
+  margin-bottom: 25px;
+}
+
+.travel-tips ul {
+  list-style: square inside;
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+}

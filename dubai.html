@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dubai - ExploreWithUs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Dubai</h1>
+  </header>
+
+  <div class="taj-container">
+    <img src="https://d33om22pidobo4.cloudfront.net/blogs/ckeditor/3jpg-d1d5dda9-f44f-4a22-bbee-0808d1ff1a53.jpg" alt="Dubai" class="taj-image">
+
+    <div class="taj-content">
+      <h2>About Dubai</h2>
+      <p>
+        Dubai, a futuristic city in the UAE, is known for its luxury shopping, ultramodern architecture, and vibrant nightlife.
+      </p>
+      <p>
+        From towering skyscrapers like Burj Khalifa to desert safaris and man-made islands, Dubai offers an extraordinary mix of innovation and tradition.
+      </p>
+
+      <button onclick="toggleMore()">Learn More</button>
+      <div id="extraInfo" class="extra-info">
+        <p>
+          Explore iconic landmarks like the Burj Al Arab and Dubai Marina, enjoy dune bashing in the desert, shop in the world’s largest malls, or experience the cultural charm of Al Fahidi district. Dubai blends opulence with Arabian heritage.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-destinations">
+    <h2>Top Travel Destinations in Dubai</h2>
+    <ul>
+      <li>Burj Khalifa – Tallest building in the world with observation decks</li>
+      <li>Dubai Mall – Massive shopping and entertainment complex</li>
+      <li>Palm Jumeirah – Iconic man-made island with resorts and beaches</li>
+      <li>Desert Safari – Dune bashing, camel rides, and Bedouin camp experiences</li>
+      <li>Dubai Marina – Waterfront dining and luxurious cruises</li>
+      <li>Global Village – Multicultural shopping, dining, and performances</li>
+      <li>Dubai Frame – Architectural landmark offering skyline views</li>
+      <li>Al Fahidi Historical District – A glimpse into traditional Emirati life</li>
+    </ul>
+  </div>
+
+  <div class="travel-tips">
+    <h2>Travel Tips for Visiting Dubai</h2>
+    <ul>
+      <li><strong>Best time to visit:</strong> November to March (pleasant weather)</li>
+      <li><strong>Visa:</strong> E-visa available for Indian passport holders</li>
+      <li><strong>Transport:</strong> Use metro, taxis, or rent cars for convenience</li>
+      <li><strong>Currency:</strong> UAE Dirham (AED)</li>
+      <li><strong>Dress code:</strong> Modest clothing in public; swimwear for beaches/pools</li>
+      <li><strong>Culture:</strong> Respect local laws and Islamic customs</li>
+      <li><strong>Shopping:</strong> Great deals during Dubai Shopping Festival (Jan–Feb)</li>
+      <li><strong>Safety:</strong> Extremely safe and tourist-friendly</li>
+    </ul>
+  </div>
+
+  <!-- Trip Packages -->
+  <div class="packages-section">
+    <h2>Trip Packages (Flights Included)</h2>
+    <div class="packages-container">
+      <div class="package-card">
+        <h3>3-Day Dubai Highlights</h3>
+        <p>Flights + visits to Burj Khalifa, Dubai Mall, and desert safari experience.</p>
+        <p class="price green">₹34,999</p>
+        <button onclick="bookPackage('3-Day Dubai Highlights')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>5-Day Luxury Dubai</h3>
+        <p>Includes Palm Jumeirah stay, Marina cruise, Global Village & shopping tour.</p>
+        <p class="price orange">₹59,999</p>
+        <button onclick="bookPackage('5-Day Luxury Dubai')">Book Now</button>
+      </div>
+
+      <div class="package-card">
+        <h3>Romantic Dubai Escape</h3>
+        <p>Luxury resort, Burj Al Arab high tea, desert dinner, and private transfers.</p>
+        <p class="price gold">₹89,999</p>
+        <button onclick="bookPackage('Romantic Dubai Escape')">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="dubai.js"></script>
+</body>
+</html>
